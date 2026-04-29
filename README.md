@@ -56,6 +56,11 @@ To deploy the landing page to Vercel (e.g., `chromapro.brilworks.com`):
 3. Deploy: `vercel`
 4. Follow the prompts and link your custom domain in the Vercel dashboard.
 
+## 👨‍💻 Developer
+Developed with ❤️ by [Dr. Dhaval Trivedi](https://drdhaval.in)
+
+🔗 **GitHub Profile:** [drdhavaltrivedi](https://github.com/drdhavaltrivedi)
+
 ---
 
 ## 📄 License
