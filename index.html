@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChromaPro | The #1 Professional Color Picker for Chrome</title>
+  <meta name="description" content="ChromaPro is the ultimate color picker extension for designers and developers. Sample colors, generate palettes, and export CSS variables with ease.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #6366f1;
+      --bg: #020617;
+      --text: #f8fafc;
+    }
+    body {
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.15) 0%, transparent 70%);
+      padding: 20px;
+    }
+    h1 {
+      font-size: clamp(3rem, 8vw, 5rem);
+      font-weight: 800;
+      margin-bottom: 20px;
+      letter-spacing: -0.04em;
+      background: linear-gradient(to bottom, #fff, #94a3b8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p.subtitle {
+      font-size: 1.25rem;
+      color: #94a3b8;
+      max-width: 600px;
+      margin-bottom: 40px;
+    }
+    .cta-button {
+      background: var(--primary);
+      color: white;
+      padding: 18px 36px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: all 0.3s;
+      box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
+    }
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 15px 40px rgba(99, 102, 241, 0.4);
+    }
+    .features {
+      padding: 100px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+    }
+    .feature-card {
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 24px;
+      transition: border-color 0.3s;
+    }
+    .feature-card:hover {
+      border-color: var(--primary);
+    }
+    .feature-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 16px;
+    }
+    .feature-card p {
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <img src="icons/icon128.png" alt="ChromaPro Logo" style="width: 100px; height: 100px; margin-bottom: 30px;">
+    <h1>ChromaPro</h1>
+    <p class="subtitle">The professional-grade color picker that fits right into your design workflow. Precision sampling, smart palettes, and instant exports.</p>
+    <a href="#" class="cta-button">Add to Chrome — It's Free</a>
+  </section>
+
+  <section class="features">
+    <div class="feature-card">
+      <h3>Precision Sampling</h3>
+      <p>Utilizes the native EyeDropper API to pick colors from any pixel on your screen with surgical precision.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Smart History</h3>
+      <p>Automatically saves your sampled colors in a persistent history grid so you never lose a shade again.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Dynamic Palettes</h3>
+      <p>Get instant suggestions for monochromatic, analogous, and complementary colors for every selection.</p>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "ChromaPro Color Picker",
+    "operatingSystem": "ChromeOS, Windows, macOS, Linux",
+    "applicationCategory": "DeveloperApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+</body>
+</html>

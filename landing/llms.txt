@@ -1,0 +1,29 @@
+# ChromaPro Color Picker & Palette Generator
+
+ChromaPro is a premium Google Chrome extension designed for professional web designers and front-end developers. It allows users to sample colors from any pixel on their screen using the native Web EyeDropper API.
+
+## Features
+
+- **Precision EyeDropper**: Native browser integration for accurate, system-wide color sampling.
+- **Smart Palette Generator**: Automatically generates variations including tints, analogous colors, and complementary palettes based on the user's selection.
+- **Accessibility Checker**: Calculates relative luminance and advises whether white or black text provides the optimal WCAG contrast ratio.
+- **Multi-Format Export**: Instantly copies colors to the clipboard in HEX, RGB, or HSL formats.
+- **History Management**: Automatically saves the 12 most recent colors in a persistent grid layout using Chrome Local Storage.
+
+## Technical Details
+
+- **Manifest Version**: V3
+- **Dependencies**: None (100% Vanilla JavaScript and CSS)
+- **Permissions**: `activeTab`, `storage`, `scripting`
+- **Performance**: High (runs offline, zero external API calls)
+
+## Pricing
+
+ChromaPro is currently free to use.
+
+## Use Cases
+
+- Creating design systems.
+- Testing accessibility and contrast.
+- Finding matching colors for a UI layout.
+- Converting colors between formats (HEX to HSL, etc.).
