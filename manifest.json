@@ -4,9 +4,7 @@
   "version": "1.0.0",
   "description": "Premium color picker for designers and developers. Sample colors, generate palettes, and manage your history with ease.",
   "permissions": [
-    "storage",
-    "activeTab",
-    "scripting"
+    "storage"
   ],
   "action": {
     "default_popup": "popup.html",
