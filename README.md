@@ -1,8 +1,8 @@
 # ChromaPro Color Picker
 
-![ChromaPro Banner](landing/og-image.png)
+![ChromaPro Banner](screenshot-demo.png)
 
-**ChromaPro** is a world-class, Rank #1 optimized Chrome Extension designed for professional designers and web developers. It provides high-precision color sampling, instant palette generation, and WCAG accessibility checking in a stunning glassmorphic UI.
+**ChromaPro** is a world-class, professional Chrome Extension designed for designers and web developers. It provides high-precision color sampling, instant palette generation, and WCAG accessibility checking in a stunning glassmorphic UI.
 
 ---
 
