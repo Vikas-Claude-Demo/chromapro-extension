@@ -93,9 +93,11 @@ h1, h2, h3, h4, .logo {
   height: 36px;
   border-radius: 10px;
   background: var(--gradient-1);
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 0 4px 15px var(--accent-glow);
+  overflow: hidden;
 }
 
 .nav-links {
