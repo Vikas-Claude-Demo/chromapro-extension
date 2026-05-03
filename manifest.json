@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "ChromaPro: Professional Color Picker & Palette",
-  "version": "1.0.0",
-  "description": "Premium color picker for designers and developers. Sample colors, generate palettes, and manage your history with ease.",
+  "name": "ChromaPro: Color Picker",
+  "version": "1.0.2",
+  "description": "A precise color picker for designers and developers. Sample any pixel on your screen and save your color history locally.",
   "permissions": [
     "storage"
   ],
